@@ -1,0 +1,12 @@
+@import 'src/tokens';
+
+.root {
+  background: $brand-primary-100;
+}
+
+.link {
+  font-family: $font-primary;
+  font-size: 44px;
+  font-weight: 700;
+  color: $dark-alpha-80;
+}
