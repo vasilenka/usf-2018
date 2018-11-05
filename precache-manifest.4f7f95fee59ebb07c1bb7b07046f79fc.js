@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/usf-2018/static/media/logo.349eafde.png"
   },
   {
-    "revision": "0976ce4fc91e90bb8c18",
+    "revision": "dccfdb35a3f89f9eff3a",
     "url": "/usf-2018/static/css/main.a2674428.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/usf-2018/static/media/header.54c11dcb.png"
   },
   {
-    "revision": "0976ce4fc91e90bb8c18",
-    "url": "/usf-2018/static/js/main.0976ce4f.chunk.js"
+    "revision": "dccfdb35a3f89f9eff3a",
+    "url": "/usf-2018/static/js/main.dccfdb35.chunk.js"
   },
   {
     "revision": "9b38b2f1474b5cbc6fb7c28b5e4ccda3",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/usf-2018/static/media/Heebo-Black.c7040aca.ttf"
   },
   {
-    "revision": "5b560c6d0f2f6905f8bbebffa4045c67",
+    "revision": "b35aeee7f264fa1be9235b2a54e3469c",
     "url": "/usf-2018/index.html"
   }
 ];
