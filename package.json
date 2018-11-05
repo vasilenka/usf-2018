@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
     "husky": "^1.1.2",
     "lint-staged": "^7.3.0",
     "mapbox-gl": "^0.50.0",
@@ -17,6 +18,8 @@
     "recompose": "^0.30.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +44,6 @@
       "prettier --single-quote --write",
       "git add"
     ]
-  }
+  },
+  "homepage": "https://vasilenka.github.io/usf-2018"
 }
