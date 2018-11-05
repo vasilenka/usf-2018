@@ -13,7 +13,12 @@ const Join = ({ className, ...restProps }) => {
     <Section bleed className={styles.container}>
       <Section narrow className={styles.componentContainer}>
         <div className={styles.root}>
-          <a className={styles.button_group} href="http://meridian.id">
+          <a
+            className={styles.button_group}
+            href="http://bit.ly/usf6solo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button secondary large>
               Join this Event as a{' '}
               <Text component="h4" heading4>
@@ -21,7 +26,12 @@ const Join = ({ className, ...restProps }) => {
               </Text>
             </Button>
           </a>
-          <a className={styles.button_group} href="http://meridian.id">
+          <a
+            className={styles.button_group}
+            href="http://bit.ly/formulirusf6jarakjauh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button secondary large>
               Join this Event as an{' '}
               <Text component="h4" heading4>
