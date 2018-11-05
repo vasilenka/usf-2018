@@ -1,0 +1,68 @@
+@import 'src/tokens';
+
+.root {
+  background: rgba(255,255,255,.92);
+  padding: $space-inset-l;
+}
+
+.row {
+  composes: row from global;
+  padding: $space-vertical-l;
+}
+
+.kk {
+  composes: col-sm-12 from global;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.kkLogo {
+  max-width: 100%;
+
+  @include screen(phone) {
+    width: 75%;
+  }
+  @include screen(desktop) {
+    width: 40%;
+  }
+}
+
+.secondaryOrganizer {
+  composes: col-sm-12 from global;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.muaramarketContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.banjarsariContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.muaramarketLogo {
+  width: 100%;
+  @include screen(phone) {
+    flex: 3;
+  }
+  @include screen(desktop) {
+    max-width: 120px;
+  }
+}
+
+.banjarsariLogo {
+  width: 100%;
+  @include screen(phone) {
+    flex: 3;
+  }
+  @include screen(desktop) {
+    max-width: 480px;
+  }
+}

@@ -1,12 +1,61 @@
 @import 'src/tokens';
 
 .root {
-  background: $brand-primary-100;
+  background: $light-alpha-100;
 }
 
-.link {
-  font-family: $font-primary;
-  font-size: 44px;
-  font-weight: 700;
-  color: $dark-alpha-80;
+.gitar {
+  position: absolute;
+  background-color: transparent;
+  background-image: url('./img/gitar.png');
+  background-size: contain;
+  background-position: 100% top;
+  background-repeat: no-repeat;
+
+  @include screen(phone) {
+    width: 120px;
+    height: 160px;
+    right: 0%;
+    top: 5%;
+  }
+
+  @include screen(desktop) {
+    width: 200px;
+    height: 300px;
+    right: 10%;
+    top: 2%;
+  }
+}
+
+.drum {
+  position: absolute;
+  background-color: transparent;
+  background-image: url('./img/drum.png');
+  background-size: contain;
+  background-position: 100% top;
+  background-repeat: no-repeat;
+
+  @include screen(phone) {
+    width: 100px;
+    height: 120px;
+    left: -16%;
+    top: 14%;
+  }
+  @include screen(desktop) {
+    width: 160px;
+    height: 260px;
+    left: -2%;
+    top: 16%;
+  }
+}
+
+.epic {
+  height: calc(180%);
+  position: relative;
+  z-index: 9;
+  padding-bottom: 240px;
+  background-image: url('./img/footer.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }

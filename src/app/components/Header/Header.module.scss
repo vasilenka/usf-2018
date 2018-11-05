@@ -1,0 +1,44 @@
+@import 'src/tokens';
+
+.card {
+  background: $light-alpha-100;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.cover {
+  flex: 1;
+  max-width: 48%;
+}
+
+.text {
+  padding: $space-inset-ll;
+  flex: 1.5;
+}
+
+.title {
+  margin: $space-stack-l;
+  color: $dark-alpha-90;
+}
+
+.subtitle {
+  margin: $space-stack-l;
+  font-weight: $medium;
+  color: $dark-alpha-80;
+}
+
+.subtitle_text {
+  font-weight: 400;
+}
+
+.description {
+  margin: $space-stack-m;
+  color: $dark-alpha-80;
+}
+
+.logo {
+  width: 125%;
+  margin-left: -20%;
+  margin-bottom: $space-l;
+}

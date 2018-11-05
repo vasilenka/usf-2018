@@ -1,0 +1,70 @@
+@import 'src/tokens';
+
+.bleed {
+  padding-top: $space-xl;
+}
+
+.root {
+  background: rgba(255,255,255,.92);
+  padding: $space-inset-l;
+}
+
+.row {
+  composes: row from global;
+  padding: $space-vertical-l;
+}
+
+.email {
+ composes: col-sm-6 from global;
+}
+
+.socmed {
+  composes: col-sm-6 from global;
+}
+
+.socmed__account {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  &:not(:last-child) {
+    margin: $space-stack-m;
+  }
+}
+
+.socmed__icon {
+  font-size: 32px;
+  color: $brand-primary-100;
+}
+
+.socmed__text {
+  color: $dark-alpha-90;
+}
+
+.iconContainer {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: $space-inline-s;
+}
+
+.email__address {
+  margin-top: $space-sm;
+}
+
+.link {
+  display: inline-block;
+  color: $brand-primary-100;
+  transition: all .3s;
+
+  &:hover,
+  &:visited,
+  &:focus,
+  &:active {
+    text-decoration: underline;
+    color: $brand-primary-200;
+    transition: all .3s;
+  }
+}

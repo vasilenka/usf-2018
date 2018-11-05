@@ -1,0 +1,46 @@
+@import 'src/tokens';
+
+.bleed {
+  background: $brand-secondary-100;
+}
+
+.root {
+  padding: $space-vertical-xl;
+}
+
+.row {
+  composes: row from global;
+}
+
+.item {
+  composes: col-md-4 col-sm-12 col from global;
+}
+
+.tiles {
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-size: cover;
+}
+
+.report {
+  background-image: url('./img/report.jpg');
+}
+
+.gallery {
+  background-image: url('./img/gallery.jpg');
+}
+
+.video {
+  background-image: url('./img/video.jpg');
+}
+
+.band {
+  padding: $space-vertical-m;
+  color: $brand-secondary-100;
+  font-weight: 500;
+  background: $brand-primary-100;
+  width: 100%;
+  text-align: center;
+}

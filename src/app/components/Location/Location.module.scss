@@ -1,0 +1,58 @@
+@import 'src/tokens';
+
+.root {
+  flex-direction: column;
+  padding-top: $space-xxl;
+  padding-bottom: $space-xl;
+  background: $brand-secondary-100;
+}
+
+.container {
+  height: 560px;
+  position: relative;
+  composes: container from global;
+}
+
+.addressContainer {
+  composes: container-narrow from global;
+  z-index: 999;
+  position: sticky;
+  top: 72px;
+  display: flex;
+  justify-content: flex-end;
+  padding: $space-vertical-l;
+}
+
+.card {
+  background: $brand-primary-100;
+  padding: $space-inset-l;
+  justify-self: flex-end;
+  border-radius: 3px;
+  max-width: 33.333%;
+}
+
+.mapContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $light-alpha-70;
+  border-radius: 8px;
+}
+
+.venue__name {
+  color: $light-alpha-100;
+}
+
+.venue__address {
+  color: $light-alpha-90;
+  margin: $space-stack-m;
+}
+
+.venue__link {
+  text-align: center;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}

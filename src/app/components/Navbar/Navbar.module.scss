@@ -1,0 +1,31 @@
+@import 'src/tokens';
+
+.root {
+  composes: container from global;
+  position: sticky;
+  top: 0;
+  padding: $space-vertical-m;
+  // background: $brand-secondary-100;
+  background: $light-alpha-100;
+  box-shadow: 0px 1px 0px 0px rgba(0,0,0,.08);
+  z-index: 999999;
+}
+
+.container {
+  composes: container-narrow from global;
+  justify-content: center;
+  display: flex;
+  color: $brand-primary-100;
+}
+
+.menu {
+  cursor: pointer;
+  color: $brand-primary-90;
+  margin: $space-inline-ll;
+  transition: all .5s;
+
+  &:hover {
+    color: $brand-primary-200;
+    transition: all .3s;
+  }
+}

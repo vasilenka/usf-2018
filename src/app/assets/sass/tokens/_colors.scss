@@ -3,55 +3,37 @@
 */
 
 // Brand Primary
-$brand-primary-100          : #d8197c;
+$brand-primary-100          : #174d59;
 // Lighter colors -- these colors have bad a11y, use only for background-colors.
-$brand-primary-10           : rgba(216, 25, 124, .1);
-$brand-primary-20           : rgba(216, 25, 124, .2);
-$brand-primary-30           : rgba(216, 25, 124, .3);
-$brand-primary-40           : rgba(216, 25, 124, .4);
-$brand-primary-50           : rgba(216, 25, 124, .5);
-$brand-primary-60           : rgba(216, 25, 124, .6);
-$brand-primary-70           : rgba(216, 25, 124, .7);
-$brand-primary-80           : rgba(216, 25, 124, .8);
-$brand-primary-90           : rgba(216, 25, 124, .9);
+$brand-primary-10           : rgba(21, 78, 95, .1);
+$brand-primary-20           : rgba(21, 78, 95, .2);
+$brand-primary-30           : rgba(21, 78, 95, .3);
+$brand-primary-40           : rgba(21, 78, 95, .4);
+$brand-primary-50           : rgba(21, 78, 95, .5);
+$brand-primary-60           : rgba(21, 78, 95, .6);
+$brand-primary-70           : rgba(21, 78, 95, .7);
+$brand-primary-80           : rgba(21, 78, 95, .8);
+$brand-primary-90           : rgba(21, 78, 95, .9);
 // Darker colors -- Use for text and various component states colors
-$brand-primary-200          : #b14f78;
-$brand-primary-300          : #88576b;
-$brand-primary-400          : #5e4c54;
+$brand-primary-200          : rgba(10, 60, 100, 1);
 
 // Brand Secondary
-$brand-secondary-100        : #6ec9ca;
+$brand-secondary-100        :rgba(254, 242, 3, 1);
 // Lighter colors -- these colors have bad a11y, use only for background-colors.
-$brand-secondary-10         : rgba(110, 201, 202, .1);
-$brand-secondary-20         : rgba(110, 201, 202, .2);
-$brand-secondary-30         : rgba(110, 201, 202, .3);
-$brand-secondary-40         : rgba(110, 201, 202, .4);
-$brand-secondary-50         : rgba(110, 201, 202, .5);
-$brand-secondary-60         : rgba(110, 201, 202, .6);
-$brand-secondary-70         : rgba(110, 201, 202, .7);
-$brand-secondary-80         : rgba(110, 201, 202, .8);
-$brand-secondary-90         : rgba(110, 201, 202, .9);
+$brand-secondary-10         : rgba(253, 234, 27, .1);
+$brand-secondary-20         : rgba(253, 234, 27, .2);
+$brand-secondary-30         : rgba(253, 234, 27, .3);
+$brand-secondary-40         : rgba(253, 234, 27, .4);
+$brand-secondary-50         : rgba(253, 234, 27, .5);
+$brand-secondary-60         : rgba(253, 234, 27, .6);
+$brand-secondary-70         : rgba(253, 234, 27, .7);
+$brand-secondary-80         : rgba(253, 234, 27, .8);
+$brand-secondary-90         : rgba(253, 234, 27, .9);
 // Darker colors -- Use for text and various component states colors
-$brand-secondary-200        :#75a9ab;
-$brand-secondary-300        :#6a8587;
-$brand-secondary-400        :#535e5f;
+$brand-secondary-200        :rgba(255, 243, 122, 1);
+$brand-secondary-alt        : rgba(253, 234, 27, 1);
 
-// Brand Tertiary
-$brand-tertiary-100         : #628dc8;
-// Lighter colors -- these colors have bad a11y, use only for background-colors.
-$brand-tertiary-10          : rgba(98, 141, 200, .1);
-$brand-tertiary-20          : rgba(98, 141, 200, .2);
-$brand-tertiary-30          : rgba(98, 141, 200, .3);
-$brand-tertiary-40          : rgba(98, 141, 200, .4);
-$brand-tertiary-50          : rgba(98, 141, 200, .5);
-$brand-tertiary-60          : rgba(98, 141, 200, .6);
-$brand-tertiary-70          : rgba(98, 141, 200, .7);
-$brand-tertiary-80          : rgba(98, 141, 200, .8);
-$brand-tertiary-90          : rgba(98, 141, 200, .9);
-// Darker colors -- Use for text and various component states colors
-$brand-tertiary-200         :#4a6a97;
-$brand-tertiary-300         :#314764;
-$brand-tertiary-400         :#182232;
+$brand-tertiary-100         : #bf2025;
 
 // Dark
 // HEX
