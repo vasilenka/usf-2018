@@ -37,7 +37,7 @@ const Header = ({ className, ...restProps }) => {
               heading3
               component="h2"
             >
-              Bandung, Indonesia
+              Solo, Indonesia
             </Text>
           </div>
           <Text className={classnames(styles.description)} normal component="p">

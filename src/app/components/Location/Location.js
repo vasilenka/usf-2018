@@ -16,7 +16,7 @@ const Location = ({ className, ...restProps }) => {
         narrow
         icon="map-marker-alt"
         title="Location"
-        subtitle="The Forum will be held in a heritage building in the city of Bandung, West Java, Indonesia"
+        subtitle="The forum will be held in several locations in Solo city."
       />
       <div className={styles.container}>
         <div className={styles.addressContainer}>
