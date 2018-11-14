@@ -5,16 +5,29 @@
   display: flex;
   width: 100%;
   align-items: flex-end;
+
+  @include screen(phone) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 
 .cover {
   flex: 1;
   max-width: 48%;
+
+  @include screen(phone) {
+    max-width: 80%;
+    flex: 1;
+  }
 }
 
 .text {
   padding: $space-inset-ll;
   flex: 1.5;
+  @include screen(phone) {
+    flex: 1;
+  }
 }
 
 .title {
@@ -41,4 +54,9 @@
   width: 125%;
   margin-left: -20%;
   margin-bottom: $space-l;
+  @include screen(phone) {
+    margin-left: 0;
+    margin-bottom: $space-xl;
+    width: 100%;
+  }
 }

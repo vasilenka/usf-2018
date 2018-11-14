@@ -8,7 +8,7 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 
 const Contact = ({ className }) => {
   return (
-    <Section className={styles.bleed}>
+    <Section id="Contact" className={styles.bleed}>
       <Section narrow className={styles.root}>
         <SectionHeader bleed icon="phone" title="Contact us" />
         <div className={styles.row}>

@@ -11,7 +11,7 @@ import Button from '../Button/Button';
 
 const Header = ({ className, ...restProps }) => {
   return (
-    <Section full>
+    <Section id="Header" full>
       <div className={classnames(styles.card)}>
         <img
           className={classnames(styles.cover)}

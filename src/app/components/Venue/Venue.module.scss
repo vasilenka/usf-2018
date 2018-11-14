@@ -1,0 +1,40 @@
+@import 'src/tokens';
+
+.root:not(:last-child) {
+  margin: $space-stack-l;
+}
+
+.name {
+  color: $light-alpha-100;
+
+  @include screen(phone) {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.address {
+  font-size: 15px;
+  line-height: 20px;
+  color: $light-alpha-90;
+  margin: $space-stack-s;
+}
+
+.link {
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+  display: inline-flex;
+  color: $brand-secondary-100;
+  padding: $space-vertical-s;
+
+  @include screen(phone) {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+.icon {
+  margin-left: 8px;
+}

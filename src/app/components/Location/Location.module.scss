@@ -11,24 +11,59 @@
   height: 560px;
   position: relative;
   composes: container from global;
+
+  @include screen(phone) {
+    height: 360px;
+  }
+}
+
+.addressPhone {
+
+  @include screen(phone) {
+    width: 100%;
+    display: static;
+  }
+
+  @include screen(tabPortrait) {
+    display: none;
+  }
 }
 
 .addressContainer {
   composes: container-narrow from global;
   z-index: 999;
-  position: sticky;
-  top: 72px;
-  display: flex;
-  justify-content: flex-end;
-  padding: $space-vertical-l;
+
+  @include screen(phone) {
+    // position: absolute;
+    display: none;
+  }
+
+  @include screen(tabPortrait) {
+    position: sticky;
+    top: 72px;
+    display: flex;
+    justify-content: flex-end;
+    padding: $space-vertical-l;
+  }
+
 }
 
 .card {
   background: $brand-primary-100;
-  padding: $space-inset-l;
-  justify-self: flex-end;
-  border-radius: 3px;
-  max-width: 33.333%;
+  @include screen(phone) {
+    max-width: 100%;
+    border-radius: 0px;
+    padding: $space-inset-ml;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  @include screen(tabPortrait) {
+    border-radius: 3px;
+    padding: $space-inset-l;
+    justify-self: flex-end;
+    max-width: 33.333%;
+  }
 }
 
 .mapContainer {
@@ -39,20 +74,10 @@
   bottom: 0;
   background: $light-alpha-70;
   border-radius: 8px;
-}
 
-.venue__name {
-  color: $light-alpha-100;
-}
+  @include screen(phone) {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
 
-.venue__address {
-  color: $light-alpha-90;
-  margin: $space-stack-m;
-}
-
-.venue__link {
-  text-align: center;
-  width: 100%;
-  display: inline-flex;
-  justify-content: center;
 }

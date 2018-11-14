@@ -2,7 +2,7 @@ import styles from './Join.module.scss';
 import React from 'react';
 // import classnames from 'classnames';
 
-import artwork from './img/about.png';
+// import artwork from './img/about.png';
 
 import Section from '../Section/Section';
 import Button from '../Button/Button';
@@ -21,7 +21,7 @@ const Join = ({ className, ...restProps }) => {
           >
             <Button secondary large>
               Join this Event as a{' '}
-              <Text component="h4" heading4>
+              <Text component="h4" heading3>
                 Participant
               </Text>
             </Button>
@@ -34,7 +34,7 @@ const Join = ({ className, ...restProps }) => {
           >
             <Button secondary large>
               Join this Event as an{' '}
-              <Text component="h4" heading4>
+              <Text component="h4" heading3>
                 Remote Participant
               </Text>
             </Button>

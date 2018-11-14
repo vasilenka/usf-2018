@@ -10,7 +10,7 @@ import Button from '../Button/Button';
 
 const About = ({ className, ...restProps }) => {
   return (
-    <Section bleed className={styles.container}>
+    <Section id="About" bleed className={styles.container}>
       <Section narrow className={styles.narrowContainer}>
         <div className={styles.root}>
           <Text className={styles.title} heading3 component="h3">
@@ -22,6 +22,7 @@ const About = ({ className, ...restProps }) => {
             alt="Another city is possible!"
           />
           <Button className={styles.cta} secondary large>
+            COMING SOON <br />
             View Schedule and Information Booklet
           </Button>
           <Text className={styles.paragraph} normal component="p">

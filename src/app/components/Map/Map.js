@@ -2,13 +2,10 @@ import styles from './Map.module.scss';
 import React from 'react';
 import classnames from 'classnames';
 import { compose, withProps } from 'recompose';
-import {
-  withScriptjs,
-  GoogleMap,
-  withGoogleMap,
-  Circle,
-  Marker
-} from 'react-google-maps';
+import { withScriptjs, GoogleMap, withGoogleMap } from 'react-google-maps';
+const {
+  MarkerWithLabel
+} = require('react-google-maps/lib/components/addons/MarkerWithLabel');
 
 const Map = compose(
   withProps({
@@ -20,15 +17,29 @@ const Map = compose(
   }),
   withScriptjs,
   withGoogleMap
-)(({ isMarkerShown, className }) => {
+)(({ isMarkerShown, className, ...restProps }) => {
   const marks = [
-    { lat: -7.561901, lng: 110.8253412 },
-    { lat: -7.5595999, lng: 110.8256934 }
+    {
+      label: 'Lokananta Records',
+      address: 'Perum Percetakan Negara RI Cabang Solo Jl. Ahmad Yani No. 379A',
+      position: {
+        lat: -7.5577743,
+        lng: 110.7933346
+      }
+    },
+    {
+      label: 'Rumah Banjarsari',
+      address: 'Jl. Syamsurizal No.10, Setabelan, Banjarsari, Kota Surakarta',
+      position: {
+        lat: -7.5595999,
+        lng: 110.8256934
+      }
+    }
   ];
 
   return (
     <GoogleMap
-      defaultZoom={17}
+      defaultZoom={14}
       defaultCenter={{ lat: -7.560368, lng: 110.8279058 }}
       gestureHandling="greedy"
       options={{
@@ -40,8 +51,28 @@ const Map = compose(
         fullscreenControl: false
       }}
     >
-      {isMarkerShown &&
-        marks.map((mark, index) => <Marker key={index} position={mark} />)}
+      {marks.map((mark, index) => {
+        return (
+          <MarkerWithLabel
+            key={index}
+            position={mark.position}
+            labelAnchor={mark.position}
+            labelStyle={{ position: 'relative' }}
+          >
+            <div
+              style={{
+                backgroundColor: 'yellow',
+                color: '#174D59',
+                fontSize: '16px',
+                padding: '8px 12px',
+                fontWeight: 500
+              }}
+            >
+              {mark.label}
+            </div>
+          </MarkerWithLabel>
+        );
+      })}
     </GoogleMap>
   );
 });

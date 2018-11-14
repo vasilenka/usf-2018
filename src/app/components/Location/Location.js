@@ -1,51 +1,56 @@
 import styles from './Location.module.scss';
 import React from 'react';
-// import classnames from 'classnames';
+import classnames from 'classnames';
 
 import Map from '../Map/Map';
 
-import Button from '../Button/Button';
 import Section from '../Section/Section';
 import SectionHeader from '../SectionHeader/SectionHeader';
-import Text from '../Text/Text';
+import Venue from '../Venue/Venue';
 
 const Location = ({ className, ...restProps }) => {
   return (
-    <Section full className={styles.root}>
+    <Section id="Location" full className={classnames(styles.root, 'Location')}>
       <SectionHeader
         narrow
         icon="map-marker-alt"
         title="Location"
         subtitle="The forum will be held in several locations in Solo city."
       />
+
       <div className={styles.container}>
         <div className={styles.addressContainer}>
           <div className={styles.card}>
-            <Text className={styles.venue__name} heading3 component="h3">
-              Muara Market
-            </Text>
-            <Text className={styles.venue__address} normal component="p">
-              Jl. Lumban Tobing, Setabelan, Banjarsari, Kota Surakarta
-            </Text>
-            <Text className={styles.venue__name} heading3 component="h3">
-              Rumah Banjarsari
-            </Text>
-            <Text className={styles.venue__address} normal component="p">
-              Jl. Syamsurizal No.10, Setabelan, Banjarsari, Kota Surakarta
-            </Text>
-            <a
-              className={styles.venue__link}
-              href="https://goo.gl/maps/A5bgs6WKzGk"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button tertiary small>
-                Get Direction
-              </Button>
-            </a>
+            <Venue
+              name="Lokananta Records"
+              address="Perum Percetakan Negara RI Cabang Solo Jl. Ahmad Yani No. 379A"
+              url="https://goo.gl/maps/m7jLrWyYotC2"
+            />
+            <Venue
+              name="Rumah Banjarsari"
+              url="https://goo.gl/maps/YdA28SnoKYT2"
+              address="Jl. Syamsurizal No.10, Setabelan, Banjarsari, Kota Surakarta"
+              // url="https://goo.gl/maps/A5bgs6WKzGk"
+            />
           </div>
         </div>
+
         <Map isMarkerShown />
+      </div>
+      <div className={styles.addressPhone}>
+        <div className={styles.card}>
+          <Venue
+            name="Lokananta Records"
+            address="Perum Percetakan Negara RI Cabang Solo Jl. Ahmad Yani No. 379A"
+            url="https://goo.gl/maps/m7jLrWyYotC2"
+          />
+          <Venue
+            name="Rumah Banjarsari"
+            url="https://goo.gl/maps/YdA28SnoKYT2"
+            address="Jl. Syamsurizal No.10, Setabelan, Banjarsari, Kota Surakarta"
+            // url="https://goo.gl/maps/A5bgs6WKzGk"
+          />
+        </div>
       </div>
     </Section>
   );

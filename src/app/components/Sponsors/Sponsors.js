@@ -1,8 +1,7 @@
 import styles from './Sponsors.module.scss';
 import React from 'react';
-import classnames from 'classnames';
+// import classnames from 'classnames';
 
-import Text from '../Text/Text';
 import Section from '../Section/Section';
 import SectionHeader from '../SectionHeader/SectionHeader';
 
@@ -12,7 +11,7 @@ import banjarsari from './logo/rumahbanjarsari.png';
 
 const Sponsors = ({ className }) => {
   return (
-    <Section className={styles.bleed}>
+    <Section id="Partners" className={styles.bleed}>
       <Section narrow className={styles.root}>
         <SectionHeader bleed icon="star" title="Organizer & Partners" />
         <div className={styles.row}>

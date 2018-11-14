@@ -8,33 +8,33 @@ const Navbar = ({ className, ...restProps }) => {
   return (
     <header className={classnames(styles.root)}>
       <nav className={classnames(styles.container)}>
-        <a href="http://meridian.id">
-          <Text className={styles.menu} label>
+        <a href="#Header" className={styles.menu}>
+          <Text className={styles.menuText} label>
             USF 2018
           </Text>
         </a>
-        <a href="http://meridian.id">
-          <Text className={styles.menu} label>
+        <a href="#About" className={styles.menu}>
+          <Text className={styles.menuText} label>
             About
           </Text>
         </a>
-        <a href="http://meridian.id">
-          <Text className={styles.menu} label>
+        <a href="#Location" className={styles.menu}>
+          <Text className={styles.menuText} label>
             Location
           </Text>
         </a>
-        <a href="http://meridian.id">
-          <Text className={styles.menu} label>
+        <a href="#Archive" className={styles.menu}>
+          <Text className={styles.menuText} label>
             Archive
           </Text>
         </a>
-        <a href="http://meridian.id">
-          <Text className={styles.menu} label>
+        <a href="#Partners" className={styles.menu}>
+          <Text className={styles.menuText} label>
             Organizers & Partners
           </Text>
         </a>
-        <a href="http://meridian.id">
-          <Text className={styles.menu} label>
+        <a href="#Contact" className={styles.menu}>
+          <Text className={styles.menuText} label>
             Contact Us
           </Text>
         </a>
