@@ -1,0 +1,31 @@
+@import 'src/tokens';
+
+.root {
+  composes: row from global;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoContainer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  &:not(:last-child) {
+
+    margin: $space-inline-l;
+
+  }
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.gula {
+  max-height: 80px;
+}
+
+.kampung {
+  max-height: 64px;
+}

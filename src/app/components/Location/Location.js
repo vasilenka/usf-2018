@@ -4,6 +4,7 @@ import classnames from 'classnames';
 
 import Map from '../Map/Map';
 
+import Text from '../Text/Text';
 import Section from '../Section/Section';
 import SectionHeader from '../SectionHeader/SectionHeader';
 import Venue from '../Venue/Venue';
@@ -21,6 +22,9 @@ const Location = ({ className, ...restProps }) => {
       <div className={styles.container}>
         <div className={styles.addressContainer}>
           <div className={styles.card}>
+            <Text className={styles.title} heading4 component="h3">
+              Main Venues
+            </Text>
             <Venue
               name="Lokananta Records"
               address="Perum Percetakan Negara RI Cabang Solo Jl. Ahmad Yani No. 379A"

@@ -1,0 +1,45 @@
+@import 'src/tokens';
+
+.root {
+  composes: row from global;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoContainer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin: $space-inline-ml;
+  }
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.pg {
+  max-height: 84px;
+}
+
+.spak {
+  max-height: 100px;
+}
+
+.kapas {
+  max-height: 92px;
+}
+
+.toss {
+  max-height: 92px;
+}
+
+.mavc {
+  max-height: 84px;
+}
+
+.urdc {
+  max-height: 152px;
+}

@@ -27,6 +27,7 @@
   flex: 1.5;
   @include screen(phone) {
     flex: 1;
+    padding: $space-vertical-ml;
   }
 }
 
@@ -48,6 +49,9 @@
 .description {
   margin: $space-stack-m;
   color: $dark-alpha-80;
+  @include screen(phone) {
+    margin: $space-stack-ml;
+  }
 }
 
 .logo {

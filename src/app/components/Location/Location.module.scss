@@ -66,6 +66,14 @@
   }
 }
 
+.title {
+  color: $light-alpha-100;
+  margin: $space-stack-ml;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+}
+
 .mapContainer {
   position: absolute;
   top: 0;
