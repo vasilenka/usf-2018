@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/usf-2018/static/media/kopernik.525408af.png"
   },
   {
-    "revision": "c9883dceb64c4aa7e975",
-    "url": "/usf-2018/static/css/main.925fb96c.chunk.css"
+    "revision": "a75fa812312aaae62481",
+    "url": "/usf-2018/static/css/main.5efc66e5.chunk.css"
   },
   {
-    "revision": "6b7fbf1914d4c0f6b9ca",
-    "url": "/usf-2018/static/js/1.6b7fbf19.chunk.js"
+    "revision": "70c288cb318069223d10",
+    "url": "/usf-2018/static/js/1.70c288cb.chunk.js"
   },
   {
     "revision": "9f8af41eef35984d0256",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/usf-2018/static/media/itdp.435867aa.jpg"
   },
   {
-    "revision": "c9883dceb64c4aa7e975",
-    "url": "/usf-2018/static/js/main.c9883dce.chunk.js"
+    "revision": "a75fa812312aaae62481",
+    "url": "/usf-2018/static/js/main.a75fa812.chunk.js"
   },
   {
     "revision": "29858ef58f1e361ca57a0dda5dcf61e8",
@@ -114,6 +114,10 @@ self.__precacheManifest = [
   {
     "revision": "66fb1e6fa75a6697ad1c5064d650dc41",
     "url": "/usf-2018/static/media/kampung-halaman.66fb1e6f.png"
+  },
+  {
+    "revision": "896515b8d51ff493fe7d5f7c831843cb",
+    "url": "/usf-2018/static/media/ruang-atas.896515b8.jpeg"
   },
   {
     "revision": "2a06e17a38a18140fdccba89ff850073",
@@ -156,7 +160,7 @@ self.__precacheManifest = [
     "url": "/usf-2018/static/media/Heebo-Black.c7040aca.ttf"
   },
   {
-    "revision": "d84e304655bcf788e9fc2403d7364df6",
+    "revision": "71f853f403e575f1c7a5b19036a8ce10",
     "url": "/usf-2018/index.html"
   }
 ];
