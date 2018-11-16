@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "6ac0f5d223c04e751faf724c8900fcd1",
-    "url": "/usf-2018/static/media/gallery.6ac0f5d2.jpg"
+    "revision": "525408af94dd8be497c2c16aa8095bd5",
+    "url": "/usf-2018/static/media/kopernik.525408af.png"
   },
   {
-    "revision": "a20ace06ac521d074c35",
-    "url": "/usf-2018/static/css/main.46bc3290.chunk.css"
+    "revision": "c9883dceb64c4aa7e975",
+    "url": "/usf-2018/static/css/main.925fb96c.chunk.css"
   },
   {
-    "revision": "2961d5982764be3c3026",
-    "url": "/usf-2018/static/js/1.2961d598.chunk.js"
+    "revision": "6b7fbf1914d4c0f6b9ca",
+    "url": "/usf-2018/static/js/1.6b7fbf19.chunk.js"
   },
   {
     "revision": "9f8af41eef35984d0256",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/usf-2018/static/media/report.3dd92194.jpg"
   },
   {
-    "revision": "a20ace06ac521d074c35",
-    "url": "/usf-2018/static/js/main.a20ace06.chunk.js"
+    "revision": "6ac0f5d223c04e751faf724c8900fcd1",
+    "url": "/usf-2018/static/media/gallery.6ac0f5d2.jpg"
   },
   {
     "revision": "19a30c96377910456c5eba442244f172",
@@ -60,12 +60,72 @@ self.__precacheManifest = [
     "url": "/usf-2018/static/media/kk.0138a12f.png"
   },
   {
+    "revision": "ecc3fb8db1d742b45e7ca70b67d2c86d",
+    "url": "/usf-2018/static/media/lokananta.ecc3fb8d.png"
+  },
+  {
     "revision": "0432f0310af047e0827c77851f21c6d2",
     "url": "/usf-2018/static/media/muara.0432f031.png"
   },
   {
     "revision": "d7e352140745385e3335393add266e76",
     "url": "/usf-2018/static/media/rumahbanjarsari.d7e35214.png"
+  },
+  {
+    "revision": "2c5b62912bf2c5bf0c3df4466126d707",
+    "url": "/usf-2018/static/media/habitat.2c5b6291.jpg"
+  },
+  {
+    "revision": "435867aad00bc32035f2cbf8f706815e",
+    "url": "/usf-2018/static/media/itdp.435867aa.jpg"
+  },
+  {
+    "revision": "c9883dceb64c4aa7e975",
+    "url": "/usf-2018/static/js/main.c9883dce.chunk.js"
+  },
+  {
+    "revision": "29858ef58f1e361ca57a0dda5dcf61e8",
+    "url": "/usf-2018/static/media/ngebikin-bareng.29858ef5.png"
+  },
+  {
+    "revision": "1ed9b4a709b50244c93f58ec9014d265",
+    "url": "/usf-2018/static/media/peace-generation.1ed9b4a7.jpg"
+  },
+  {
+    "revision": "6308061942abb8998533b35a2e133cec",
+    "url": "/usf-2018/static/media/spak.63080619.png"
+  },
+  {
+    "revision": "b55f37d91a929127f39fbe50e4b10e31",
+    "url": "/usf-2018/static/media/sahabat-kapas.b55f37d9.png"
+  },
+  {
+    "revision": "422b2a2de1c2b0dddd1c9941e4d0f6e2",
+    "url": "/usf-2018/static/media/toss-lk.422b2a2d.png"
+  },
+  {
+    "revision": "0ea453a8b1e14bfa8518286ad9943981",
+    "url": "/usf-2018/static/media/mavc.0ea453a8.jpg"
+  },
+  {
+    "revision": "89facd255f633ea84a1e45d03272bbe2",
+    "url": "/usf-2018/static/media/urdc.89facd25.png"
+  },
+  {
+    "revision": "66fb1e6fa75a6697ad1c5064d650dc41",
+    "url": "/usf-2018/static/media/kampung-halaman.66fb1e6f.png"
+  },
+  {
+    "revision": "2a06e17a38a18140fdccba89ff850073",
+    "url": "/usf-2018/static/media/kabar-solo.2a06e17a.jpg"
+  },
+  {
+    "revision": "3b565ac9f70e0efb3776f507e6fa8f86",
+    "url": "/usf-2018/static/media/event-solo.3b565ac9.jpg"
+  },
+  {
+    "revision": "6360212b37fc00cb84b1dc392cf10259",
+    "url": "/usf-2018/static/media/agenda-solo.6360212b.jpg"
   },
   {
     "revision": "d790738659e949dc1b6b2e1716043318",
@@ -96,7 +156,7 @@ self.__precacheManifest = [
     "url": "/usf-2018/static/media/Heebo-Black.c7040aca.ttf"
   },
   {
-    "revision": "9934323e079852a7127ddf372ceed215",
+    "revision": "d84e304655bcf788e9fc2403d7364df6",
     "url": "/usf-2018/index.html"
   }
 ];
