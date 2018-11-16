@@ -21,8 +21,12 @@ const About = ({ className, ...restProps }) => {
             src={logo}
             alt="Another city is possible!"
           />
-          <Button className={styles.cta} secondary large>
-            COMING SOON <br />
+          <Button
+            handleClick="https://bit.ly/informasiusf6"
+            className={styles.cta}
+            secondary
+            large
+          >
             View Schedule and Information Booklet
           </Button>
           <Text className={styles.paragraph} normal component="p">

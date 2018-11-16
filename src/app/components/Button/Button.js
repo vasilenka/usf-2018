@@ -3,6 +3,7 @@ import React from 'react';
 import classnames from 'classnames';
 
 const Button = ({
+  handleClick,
   children,
   primary,
   secondary,
@@ -18,6 +19,9 @@ const Button = ({
 }) => {
   return (
     <button
+      onClick={() => {
+        window.open(handleClick);
+      }}
       type="button"
       className={classnames({
         [styles.primary]: primary,
