@@ -21,6 +21,9 @@
 
 .logo {
   max-width: 100%;
+  @include screen(phone) {
+    margin: $space-stack-m;
+  }
 }
 
 .habitat {

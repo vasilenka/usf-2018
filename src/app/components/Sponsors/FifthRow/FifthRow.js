@@ -4,6 +4,7 @@ import classnames from 'classnames';
 
 import gula from './kembang-gula.png';
 import kampung from './kampung-halaman.png';
+import ruangatas from './ruang-atas.jpeg';
 
 const FifthRow = ({ className, ...restProps }) => {
   return (
@@ -20,6 +21,13 @@ const FifthRow = ({ className, ...restProps }) => {
           src={kampung}
           className={classnames(styles.logo, styles.kampung)}
           alt="Kampung halaman logo"
+        />
+      </div>
+      <div className={styles.logoContainer}>
+        <img
+          src={ruangatas}
+          className={classnames(styles.logo, styles.ruangatas)}
+          alt="Ruang atas logo"
         />
       </div>
     </div>

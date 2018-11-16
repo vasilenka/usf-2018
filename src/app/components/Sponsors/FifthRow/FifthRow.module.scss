@@ -20,6 +20,9 @@
 
 .logo {
   max-width: 100%;
+  @include screen(phone) {
+    margin: $space-stack-m;
+  }
 }
 
 .gula {
@@ -28,4 +31,8 @@
 
 .kampung {
   max-height: 64px;
+}
+
+.ruangatas {
+  max-width: 104px;
 }
