@@ -4,6 +4,11 @@
   margin: $space-stack-ll;
   display: flex;
   align-items: center;
+
+  @include screen(phone) {
+    align-items: flex-start;
+  }
+
 }
 
 .narrow {
@@ -29,13 +34,24 @@
   justify-content: center;
   align-items: center;
   margin: $space-inline-l;
+
+  @include screen(phone) {
+    margin: $space-inline-m;
+    width: 32px;
+    height: 32px;
+  }
+
 }
 
 .icon {
   font-size: 48px;
   line-height: 48px;
-  // color: $brand-secondary-100;
   color: $brand-tertiary-100;
+
+  @include screen(phone) {
+    font-size: 32px;
+    line-height: 32px;
+  }
 }
 
 .titleContainer {
@@ -44,10 +60,21 @@
 
 .title {
   color: $brand-primary-100;
+
+  @include screen(phone) {
+    font-size: $heading-3;
+    line-height: 36px;
+  }
 }
 
 .subtitle {
   color: $dark-alpha-70;
   font-weight: 400;
+
+  @include screen(phone) {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
 }
 

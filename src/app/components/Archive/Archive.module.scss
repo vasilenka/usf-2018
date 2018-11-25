@@ -1,11 +1,11 @@
 @import 'src/tokens';
 
-.bleed {
-  background: $brand-secondary-100;
-}
-
 .root {
   padding: $space-vertical-xl;
+}
+
+.bleed {
+  background: $brand-secondary-100;
 }
 
 .row {

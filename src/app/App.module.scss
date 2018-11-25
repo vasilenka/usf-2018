@@ -13,10 +13,10 @@
   background-repeat: no-repeat;
 
   @include screen(phone) {
-    width: 120px;
+    width: 80px;
     height: 160px;
-    right: 0%;
-    top: 5%;
+    right: -8%;
+    top: 12%;
   }
 
   @include screen(desktop) {
@@ -36,10 +36,10 @@
   background-repeat: no-repeat;
 
   @include screen(phone) {
-    width: 100px;
+    width: 64px;
     height: 120px;
-    left: -16%;
-    top: 14%;
+    left: -12%;
+    top: 8%;
   }
   @include screen(desktop) {
     width: 160px;
@@ -58,4 +58,5 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom;
+  overflow: hidden;
 }

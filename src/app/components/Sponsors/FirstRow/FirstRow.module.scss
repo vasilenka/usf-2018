@@ -28,4 +28,7 @@
 
 .kotakita {
   max-height: 112px;
+  @include screen(phone) {
+    max-height: 64px;
+  }
 }

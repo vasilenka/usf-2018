@@ -54,8 +54,7 @@
     max-width: 100%;
     border-radius: 0px;
     padding: $space-inset-ml;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 0px;
   }
 
   @include screen(tabPortrait) {
@@ -72,6 +71,11 @@
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.24px;
+  @include screen(phone) {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+  }
 }
 
 .mapContainer {
@@ -88,4 +92,10 @@
     border-bottom-right-radius: 0px;
   }
 
+}
+
+.special {
+  @include screen(phone) {
+    composes: contianer-bleed from global;
+  }
 }

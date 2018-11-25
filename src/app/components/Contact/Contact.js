@@ -13,7 +13,7 @@ const Contact = ({ className }) => {
         <SectionHeader bleed icon="phone" title="Contact us" />
         <div className={styles.row}>
           <div className={styles.email}>
-            <Text component="h3" label highlight>
+            <Text className={styles.label} component="h3" label highlight>
               Email us at
             </Text>
             <a
@@ -27,6 +27,9 @@ const Contact = ({ className }) => {
           </div>
 
           <div className={styles.socmed}>
+            <Text className={styles.label} component="h3" label highlight>
+              Connect with us on social media
+            </Text>
             <a
               className={styles.socmed__account}
               href="http://facebook.com/urban.social.forum"

@@ -4,6 +4,7 @@ import classnames from 'classnames';
 
 const Button = ({
   handleClick,
+  handleClose,
   children,
   primary,
   secondary,
@@ -20,7 +21,7 @@ const Button = ({
   return (
     <button
       onClick={() => {
-        window.open(handleClick);
+        handleClick ? window.open(handleClick) : handleClose();
       }}
       type="button"
       className={classnames({

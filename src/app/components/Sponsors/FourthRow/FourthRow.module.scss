@@ -21,28 +21,52 @@
   @include screen(phone) {
     margin: $space-stack-m;
   }
+  @include screen(tabPortrait) {
+    margin: $space-stack-m;
+  }
+  @include screen(tabLandscape) {
+    margin: $space-stack-m;
+  }
 }
 
 .pg {
   max-height: 84px;
+  @include screen(phone) {
+    max-height: 52px;
+  }
 }
 
 .spak {
   max-height: 100px;
+  @include screen(phone) {
+    max-height: 64px;
+  }
 }
 
 .kapas {
   max-height: 92px;
+  @include screen(phone) {
+    max-height: 64px;
+  }
 }
 
 .toss {
   max-height: 92px;
+  @include screen(phone) {
+    max-height: 64px;
+  }
 }
 
 .mavc {
-  max-height: 84px;
+  max-height: 76px;
+  @include screen(phone) {
+    max-height: 56px;
+  }
 }
 
 .urdc {
-  max-height: 152px;
+  max-height: 64px;
+  @include screen(phone) {
+    max-height: 44px;
+  }
 }

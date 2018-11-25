@@ -9,6 +9,10 @@
   background: $light-alpha-70;
   box-shadow: 0px 16px 40px -12px rgba(0,0,0,.20);
   border-radius: 8px;
+
+  @include screen(phone) {
+    border-radius: 0;
+  }
 }
 
 .map {
@@ -19,7 +23,6 @@
   bottom: 0;
   border-radius: 8px;
   @include screen(phone) {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-radius: 0;
   }
 }

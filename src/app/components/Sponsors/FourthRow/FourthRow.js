@@ -37,21 +37,21 @@ const FourthRow = ({ className, ...restProps }) => {
         <img
           src={toss}
           className={classnames(styles.logo, styles.toss)}
-          alt="Ngebikin Bareng logo"
+          alt="Salam toss logo"
         />
       </div>
       <div className={styles.logoContainer}>
         <img
           src={mavc}
           className={classnames(styles.logo, styles.mavc)}
-          alt="Ngebikin Bareng logo"
+          alt="MAVC logo"
         />
       </div>
       <div className={styles.logoContainer}>
         <img
           src={urdc}
           className={classnames(styles.logo, styles.urdc)}
-          alt="Ngebikin Bareng logo"
+          alt="URDC logo"
         />
       </div>
     </div>

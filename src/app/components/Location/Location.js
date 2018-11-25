@@ -10,10 +10,14 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 import Venue from '../Venue/Venue';
 
 const Location = ({ className, ...restProps }) => {
+  const width = window.visualViewport.width;
+  console.log(width);
+
   return (
     <Section id="Location" full className={classnames(styles.root, 'Location')}>
       <SectionHeader
-        narrow
+        // className={styles.special}
+        bleed
         icon="map-marker-alt"
         title="Location"
         subtitle="The forum will be held in several locations in Solo city."
@@ -34,7 +38,6 @@ const Location = ({ className, ...restProps }) => {
               name="Rumah Banjarsari"
               url="https://goo.gl/maps/YdA28SnoKYT2"
               address="Jl. Syamsurizal No.10, Setabelan, Banjarsari, Kota Surakarta"
-              // url="https://goo.gl/maps/A5bgs6WKzGk"
             />
           </div>
         </div>
@@ -43,6 +46,9 @@ const Location = ({ className, ...restProps }) => {
       </div>
       <div className={styles.addressPhone}>
         <div className={styles.card}>
+          <Text className={styles.title} heading4 component="h3">
+            Main Venues
+          </Text>
           <Venue
             name="Lokananta Records"
             address="Perum Percetakan Negara RI Cabang Solo Jl. Ahmad Yani No. 379A"

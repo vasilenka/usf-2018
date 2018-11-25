@@ -20,7 +20,8 @@ const SectionHeader = ({
         [styles.root]: true,
         [styles.narrow]: narrow,
         [styles.bleed]: bleed,
-        [styles.full]: full
+        [styles.full]: full,
+        [className]: className
       })}
     >
       <div className={styles.iconContainer}>

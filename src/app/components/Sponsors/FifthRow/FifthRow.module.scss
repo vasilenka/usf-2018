@@ -23,16 +23,31 @@
   @include screen(phone) {
     margin: $space-stack-m;
   }
+  @include screen(tabPortrait) {
+    margin: $space-stack-m;
+  }
+  @include screen(tabLandscape) {
+    margin: $space-stack-m;
+  }
 }
 
 .gula {
   max-height: 80px;
+  @include screen(phone) {
+    max-height: 52px;
+  }
 }
 
 .kampung {
   max-height: 64px;
+  @include screen(phone) {
+    max-height: 40px;
+  }
 }
 
 .ruangatas {
   max-width: 104px;
+  @include screen(phone) {
+    max-height: 60px;
+  }
 }

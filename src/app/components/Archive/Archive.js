@@ -11,11 +11,11 @@ import gallery from './img/gallery.jpg';
 import video from './img/video.jpg';
 
 const Archive = ({ className, ...restProps }) => {
-  const getWidth = document.querySelector('#gallery');
-  console.log(getWidth);
+  // const getWidth = document.querySelector('#gallery');
+  // console.log(getWidth);
 
   return (
-    <Section id="Archive" className={styles.bleed}>
+    <div id="Archive" className={styles.bleed}>
       <Section narrow className={styles.root}>
         <SectionHeader bleed icon="archive" title="Archive" />
         <div className={styles.row}>
@@ -41,7 +41,7 @@ const Archive = ({ className, ...restProps }) => {
           />
         </div>
       </Section>
-    </Section>
+    </div>
   );
 };
 

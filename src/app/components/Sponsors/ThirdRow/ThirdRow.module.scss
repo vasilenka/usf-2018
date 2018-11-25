@@ -24,20 +24,38 @@
   @include screen(phone) {
     margin: $space-stack-m;
   }
+  @include screen(tabPortrait) {
+    margin: $space-stack-m;
+  }
+  @include screen(tabLandscape) {
+    margin: $space-stack-m;
+  }
 }
 
 .habitat {
   max-height: 80px;
+  @include screen(phone) {
+    max-height: 52px;
+  }
 }
 
 .itdp {
   max-height: 64px;
+  @include screen(phone) {
+    max-height: 40px;
+  }
 }
 
 .kopernik {
   max-height: 40px;
+  @include screen(phone) {
+    max-height: 24px;
+  }
 }
 
 .bareng {
   max-height: 52px;
+  @include screen(phone) {
+    max-height: 36px;
+  }
 }

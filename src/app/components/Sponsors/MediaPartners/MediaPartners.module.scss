@@ -24,17 +24,6 @@
   max-height: 48px;
   @include screen(phone) {
     margin: $space-stack-m;
+    max-height: 36px;
   }
 }
-
-// .kabar {
-//   max-height: 56px;
-// }
-
-// .event {
-//   max-height: 56px;
-// }
-
-// .agenda {
-//   max-height: 56px;
-// }

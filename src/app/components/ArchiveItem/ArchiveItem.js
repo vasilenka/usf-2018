@@ -13,7 +13,7 @@ const ArchiveItem = ({ title, url, img, alt, className, ...restProps }) => {
       rel="noopener noreferrer"
     >
       <div className={classnames(styles.tiles)}>
-        <img className={styles.thumbnail} src={img} alt={alt} />
+        <img className={styles.thumbnail} src={img} alt={alt} width="100%" />
       </div>
       <Text className={styles.band} large component="h3">
         {title}

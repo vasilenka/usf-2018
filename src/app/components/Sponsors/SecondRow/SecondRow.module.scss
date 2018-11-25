@@ -28,12 +28,21 @@
 
 .lokananta {
   max-height: 92px;
+  @include screen(phone) {
+    max-height: 68px;
+  }
 }
 
 .muara {
   max-height: 104px;
+  @include screen(phone) {
+    max-height: 72px;
+  }
 }
 
 .banjarsari {
   max-height: 144px;
+  @include screen(phone) {
+    max-height: 88px;
+  }
 }

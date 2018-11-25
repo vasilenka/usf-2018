@@ -2,6 +2,11 @@
 
 .bleed {
   padding-top: $space-xl;
+  // border-top: 1px solid rgba(0,0,0,.08);
+  @include screen(phone) {
+    padding-top: $space-ml;
+    border-top: 1px solid rgba(0,0,0,.08);
+  }
 }
 
 .root {
@@ -16,6 +21,10 @@
 
 .email {
  composes: col-sm-6 from global;
+
+ @include screen(phone) {
+  margin: $space-stack-ml;
+ }
 }
 
 .socmed {
@@ -28,17 +37,19 @@
   justify-content: flex-start;
 
   &:not(:last-child) {
-    margin: $space-stack-m;
+    margin: $space-stack-ml;
   }
 }
 
 .socmed__icon {
   font-size: 32px;
+  line-height: 32px;
   color: $brand-primary-100;
-}
 
-.socmed__text {
-  color: $dark-alpha-90;
+  @include screen(phone) {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
 
 .iconContainer {
@@ -48,10 +59,12 @@
   justify-content: center;
   align-items: center;
   margin: $space-inline-s;
-}
 
-.email__address {
-  margin-top: $space-sm;
+  @include screen(phone) {
+    width: 24px;
+    height: 24px;
+  }
+
 }
 
 .link {
@@ -67,4 +80,13 @@
     color: $brand-primary-200;
     transition: all .3s;
   }
+
+  @include screen(phone) {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+.label {
+  margin: $space-stack-ml;
 }

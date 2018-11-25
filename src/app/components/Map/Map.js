@@ -37,10 +37,16 @@ const Map = compose(
     }
   ];
 
+  const screenSize =
+    window.visualViewport.width > 600
+      ? { lat: -7.560368, lng: 110.8279058 }
+      : { lat: -7.560368, lng: 110.8259058 };
+  const zoom = window.visualViewport.width > 600 ? 14 : 12;
+
   return (
     <GoogleMap
-      defaultZoom={14}
-      defaultCenter={{ lat: -7.560368, lng: 110.8279058 }}
+      defaultZoom={zoom}
+      defaultCenter={screenSize}
       gestureHandling="greedy"
       options={{
         zoomControl: true,
