@@ -30,7 +30,7 @@ const Join = ({ className, ...restProps }) => {
             rel="noopener noreferrer"
           >
             <Button secondary large>
-              Join this Event as an{' '}
+              Join this Event as a{' '}
               <Text className={styles.buttonEmphasis} component="h4" heading3>
                 Remote Participant
               </Text>

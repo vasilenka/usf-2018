@@ -10,9 +10,6 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 import Venue from '../Venue/Venue';
 
 const Location = ({ className, ...restProps }) => {
-  const width = window.visualViewport.width;
-  console.log(width);
-
   return (
     <Section id="Location" full className={classnames(styles.root, 'Location')}>
       <SectionHeader

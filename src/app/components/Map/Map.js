@@ -38,10 +38,10 @@ const Map = compose(
   ];
 
   const screenSize =
-    window.visualViewport.width > 600
+    document.body.clientWidth > 600
       ? { lat: -7.560368, lng: 110.8279058 }
       : { lat: -7.560368, lng: 110.8259058 };
-  const zoom = window.visualViewport.width > 600 ? 14 : 12;
+  const zoom = document.body.clientWidth > 600 ? 14 : 12;
 
   return (
     <GoogleMap
